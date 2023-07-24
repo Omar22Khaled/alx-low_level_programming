@@ -1,4 +1,4 @@
-#include <std.io>
+#include <stdio.h>
 /**
  * _atoi - Function converts a string to an integer
  * @s: String
