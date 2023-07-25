@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- * _puts - A function that prints a string folloed by a new line.
- * @str: input string
- * Return: no return
+ * _puts - prints a string followed by a new line..
+ *
+ *@str: the string to print.
+ *
  */
+
 void _puts(char *str)
 {
-	int count;
+	int i;
 
-	for (count = 0; str[count] != '\0'; count++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[count]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
